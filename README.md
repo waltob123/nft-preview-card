@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL]()
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/nft-preview-card-component-OmTplFGKKT)
 - Live Site URL: [Live site URL](https://waltob123.github.io/nft-preview-card/)
 
 ## My process
