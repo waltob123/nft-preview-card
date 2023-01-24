@@ -11,16 +11,21 @@
     box-sizing: border-box;
 }
 
-p {
+p, h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
+    font-size: 1rem;
     margin-block-end: 1rem;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    display: inline-block;
+    display: block;
+}
+
+main {
+    min-height: 100vh;
 }
 
 .text-fff {
@@ -42,14 +47,15 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
 }
 
 section {
     background-color: hsl(216, 50%, 16%);
     padding: 1rem;
-    max-width: 300px;
+    max-width: 280px;
     margin-block: 3rem;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 5px 5px 50px;
 }
 
@@ -82,12 +88,12 @@ section {
     display: flex;
 }
 
-.equilibrium-text > p:first-of-type {
+.equilibrium-text > h1:first-of-type {
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-.equilibrium-text > p:first-of-type:hover {
+.equilibrium-text > h1:first-of-type:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
